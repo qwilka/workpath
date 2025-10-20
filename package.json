@@ -1,0 +1,31 @@
+{
+  "name": "workpath",
+  "version": "1.0.0",
+  "description": "Workflow automation explorations.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwilka/workpath.git"
+  },
+  "keywords": [
+    "workflow",
+    "node",
+    "graph"
+  ],
+  "author": "Stephen McEntee",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/qwilka/workpath/issues"
+  },
+  "homepage": "https://github.com/qwilka/workpath#readme",
+  "dependencies": {
+    "graphology": "^0.26.0",
+    "graphology-dag": "^0.4.1"
+  }
+}
