@@ -1,3 +1,6 @@
+"""
+https://en.wikipedia.org/wiki/Cartesian_product
+"""
 import numbers
 
 import numpy as np
@@ -52,6 +55,16 @@ def axial_friction(phi_s, r_soil_pipe, check_radians=True):
     return mu_seabed
 
 
+def cartesian_product(*arrays):
+    """Generate the cartesian product of input arrays. (vibe untested)"""
+    la = len(arrays)
+    dtype = np.result_type(*arrays)
+    arr = np.empty([len(a) for a in arrays] + [la], dtype=dtype)
+    for i, a in enumerate(np.ix_(*arrays)):
+        arr[...,i] = a
+    return arr.reshape(-1, la)
+
+
 # def typeframe(*lists):
 #     typstr = ""
 #     for ii, li in enumerate(lists):
@@ -74,3 +87,5 @@ if __name__ == "__main__":
     mu_s = axial_friction(vphi_s, vr_soil_pipe)
     df = pd.DataFrame({"phi":vphi_s, "r_soil_pipe": vr_soil_pipe, "mu_s":mu_s})
 
+    # cartesian product using a generator expression
+    records = ((x, y, z) for x in a for y in b for z in c)
