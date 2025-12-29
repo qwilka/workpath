@@ -1,0 +1,8 @@
+
+
+
+https://graphtik.readthedocs.io/en/latest/operations.html
+
+
+
+https://github.com/ankostis/graphtik/blob/dev/graphtik/autograph.py

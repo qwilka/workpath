@@ -6,3 +6,19 @@
 http://colah.github.io/posts/2015-08-Backprop/   Calculus on Computational Graphs: Backpropagation
 
 
+https://github.com/dagrejs/dagre  Directed graph layout for JavaScript 
+https://github.com/dagrejs/dagre-d3
+https://github.com/dagrejs/graphlib  directed multi-graph library for JavaScript
+https://github.com/dagrejs/graphlib/wiki
+
+
+https://hackernoon.com/heres-why-you-shouldnt-use-graphviz-for-dags-what-you-should-use-instead
+https://github.com/vizdom-dev/vizdom  diagrams-as-code library for TypeScript with zero dependencies 
+https://vizdom.dev/
+https://www.researchgate.net/publication/3187542_A_Technique_for_Drawing_Directed_Graphs
+https://terrastruct.com/blog/post/diagram-layout-engines-crossing-minimization/?ref=hackernoon.com
+
+
+
+
+

@@ -1,0 +1,11 @@
+
+
+https://github.com/dagrejs/graphlib  directed multi-graph library for JavaScript
+https://github.com/dagrejs/graphlib/blob/master/lib/graph.js
+
+
+https://github.com/vizdom-dev/vizdom  diagrams-as-code library for TypeScript
+https://vizdom.dev/
+https://github.com/xyflow/xyflow  React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs 
+https://github.com/kieler/elkjs  ELK's layout algorithms for JavaScript 
+
